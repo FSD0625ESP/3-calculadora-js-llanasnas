@@ -1,0 +1,27 @@
+{
+  "name": "calculator-gerard",
+  "version": "1.0.0",
+  "description": "A simple JS calculator",
+  "type": "module",
+  "main": "assets/js/tests/calculator.spec.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FSD0625ESP/3-calculadora-js-llanasnas.git"
+  },
+  "author": "Gerard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FSD0625ESP/3-calculadora-js-llanasnas/issues"
+  },
+  "homepage": "https://github.com/FSD0625ESP/3-calculadora-js-llanasnas#readme",
+  "devDependencies": {
+    "jest": "^30.0.4",
+    "jest-environment-jsdom": "^30.0.4"
+  },
+  "dependencies": {
+    "jest-cli": "^30.0.4"
+  }
+}
