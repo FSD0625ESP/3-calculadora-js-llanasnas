@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/calculator.js" defer></script>
+    <script src="assets/js/main.js" type="module" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="calculator">
+        <div id="display" class="display">0</div>
+        <div id="history" class="history"></div>
+        <div class="buttons">
+          <button class="button" data-action="clean">C</button>
+          <button class="button" data-action="delete">←</button>
+          <button class="button" data-value="π">π</button>
+          <button class="button" data-value="%">%</button>
+
+          <button class="button" data-value="7">7</button>
+          <button class="button" data-value="8">8</button>
+          <button class="button" data-value="9">9</button>
+          <button class="button" data-value="/">/</button>
+
+          <button class="button" data-value="4">4</button>
+          <button class="button" data-value="5">5</button>
+          <button class="button" data-value="6">6</button>
+          <button class="button" data-value="*">*</button>
+
+          <button class="button" data-value="1">1</button>
+          <button class="button" data-value="2">2</button>
+          <button class="button" data-value="3">3</button>
+          <button class="button" data-value="-">-</button>
+
+          <button class="button" data-value="0">0</button>
+          <button class="button" data-value=".">.</button>
+          <button class="button" data-value="^">^</button>
+          <button class="button" data-value="+">+</button>
+
+          <button class="button" data-action="sqrt" data-value="√">√</button>
+          <button class="button" data-value="(">(</button>
+          <button class="button" data-value=")">)</button>
+          <button class="button equal" data-action="calculate">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
